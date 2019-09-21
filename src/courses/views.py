@@ -108,6 +108,6 @@ class CourseView(CourseObjectMixin, View):
     #     return render(request, 'about.html', {})
 
 # HTTP METHODS
-def my_fbv(request, *args, **kwargs):
-    print(request.method)
-    return render(request, 'about.html', {})
+# def my_fbv(request, *args, **kwargs):
+#     print(request.method)
+#     return render(request, 'about.html', {})
